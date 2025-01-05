@@ -33,7 +33,7 @@ export const Timeline = () => {
       icon: Briefcase,
       points: [
         "Helping increase security of Oracle Cloud services",
-        "Working with Oracle Linux team on threat detection",
+        "Working with Oracle Linux team on threat detection for build systems",
         "Writing research paper on findings",
         "Experience with Java, Go, and microservices",
         "Research in confidential computing for cyber security",
@@ -42,12 +42,12 @@ export const Timeline = () => {
     },
     {
       date: "September 2024 - Present",
-      title: "Startup Co-Founder",
+      title: "Startup Co-Founder and Full Stack Engineer",
       organization: "SeatFinder",
       icon: Code,
       points: [
         "Founded startup helping users find reward seat flights",
-        "Grew to 2000+ users with 100+ paying subscribers",
+        "Grew to 2500+ users with 100+ paying subscribers",
         "Full stack development with React, FastAPI, Google Cloud, and Docker",
         "Experience with TypeScript and Python"
       ]
@@ -71,7 +71,7 @@ export const Timeline = () => {
       organization: "The University of Queensland",
       icon: GraduationCap,
       points: [
-        "Tutored 4 software courses including CSSE2002, COMP4403",
+        "Tutored 4 software courses including CSSE2002, COMP4403, CSSE3200 and CSSE3012",
         "Taught Java, OOP, and software processes",
         "Gained public speaking and communication experience",
         "Covered large-scale system design principles"
@@ -86,9 +86,9 @@ export const Timeline = () => {
       organization: "The University of Queensland",
       icon: GraduationCap,
       points: [
-        "Software Engineering",
+        "Bachelor of Engineering Honours (Software Engineering)",
         "Dean's Commendation for Academic Excellence (2022, 2023)",
-        "GPA exceeding 6.6"
+        "Last Semester GPA of 6"
       ]
     }
   ];
