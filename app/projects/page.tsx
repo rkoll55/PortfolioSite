@@ -30,40 +30,36 @@ const IMC = () => {
 
 const data = [
   {
-    category: "Machine Learning",
-    title: "Training StyleGAN from scratch on ADNI",
-    src: "/BrainScan.png",
-    content: <ADNI />,
+    category: "Full Stack Development",
+    title: "seatfinder.tech",
+    src: "/seatfindersite.png",
+    content: "ge  "
   },
-  {
+   {
     category: "Machine Learning",
-    title: "State-of-the-Art Background Removal Finetuning",
-    src: "/bgremoval.png",
-    content: <BlungeAI />,
-  },
-  {
-    category: "Trading",
-    title: "IMC Prosperity Trading Challenge",
-    src: "/trading2.png",
-    content: <IMC/>,
-  },
-  {
-    category: "Machine Learning",
-    title: "ResNet and DCGAN Training",
+    title: "Perciever Transformer",
     src: "/cifar10.png",
-    content: <DeepLearningExperimentation />,
   },
-  {
-    category: "App Development",
-    title: "React Native Job Searching App",
-    src: "/react.png",
-    content: <JobFindingApp />,
+   {
+    category: "Systems Programming",
+    title: "Operating System Kernel",
+    src: "/kernel.png",
   },
   {
     category: "Web Development",
-    title: "Portfolio Website (This website)",
-    src: "/currebtpage.png",
-    content: <PortfolioWebsite />,
+    title: "UQ Compare",
+    src: "/uqcompare.png",
+  },
+
+  {
+    category: "Finance",
+    title: "Stock Trading Bot",
+    src: "/stocks.png",
+  },
+  {
+    category: "Web Development",
+    title: "This Website",
+    src: "/react.png",
   },
 ];
 
@@ -73,13 +69,13 @@ export default function ProjectsPage() {
   ));
 
   return (
-    <main className="min-h-screen bg-neutral-900 overflow-x-hidden">
+    <main className="min-h-screen  overflow-x-hidden">
       <Header />
       <div className="w-full h-full py-8 md:py-20 px-4 md:px-8">
         <h1 className="text-3xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto 
-            mt-4 md:mt-6 relative z-20 py-4 md:py-6 bg-clip-text text-transparent bg-gradient-to-b 
-            from-neutral-100 via-neutral-400 to-neutral-700 dark:from-neutral-300 dark:via-dark dark:to-dark">
-          Projects
+            mt-4 md:mt-6 relative z-20 py-4 md:py-6 bg-clip-text text-transparent bg-black
+            ">
+          My Projects
         </h1>
         <Carousel items={cards} />
       </div>

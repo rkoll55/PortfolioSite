@@ -75,7 +75,7 @@ const PortfolioWebsite = () => {
         </li>
       </ul>
       <a 
-      href="https://github.com/amlannag/website" 
+      href="https://github.com/rkoll55" 
       target="_blank" 
       rel="noopener noreferrer"
       className="block w-fit mx-auto mt-6"

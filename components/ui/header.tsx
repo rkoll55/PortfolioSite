@@ -29,13 +29,13 @@ const Header: React.FC = () => {
     <header
       className={`w-full fixed top-0 z-[99] left-0 transition-all duration-300 ${
         isScrolled 
-          ? "bg-white/70 backdrop-blur-lg shadow-md" 
+          ? "bg-white/70 backdrop-blur-lg " 
           : "bg-transparent"
       }`}
     >
       <div className="flex justify-between items-center p-4 px-24 max-w-7xl mx-auto">
         {/* Logo */}
-        <div className="text-black  text-lg">
+        <div className="text-black font-semibold text-lg">
           <Link href="/">Rohan's Portfolio</Link>
         </div>
 

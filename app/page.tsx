@@ -57,7 +57,7 @@ export default function Home() {
                 <div className="flex space-x-6 mr-5">
                   {/* LinkedIn Icon */}
                   <a
-                    href="https://www.linkedin.com/in/amlan-nag-uq/"
+                    href="https://www.linkedin.com/in/rohan-kollambalath-516034238/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-300 hover:text-blue-800"
@@ -74,7 +74,7 @@ export default function Home() {
 
                   {/* GitHub Icon */}
                   <a
-                    href="https://github.com/amlannag?tab=repositories"
+                    href="https://github.com/rkoll55"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-gray-600"
