@@ -8,11 +8,19 @@ import Header from "@/components/ui/header";
 import { useRouter } from "next/navigation";
 import data from "./experience";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
-
 const Spacer = ({ height = "100px" }: { height?: string }) => {
-  return <div style={{ height }} className="w-full" />;
+  return (
+    <div style={{ height }} className="mx-auto flex items-end justify-center">
+      <a 
+        href="https://www.flaticon.com/free-icons/portfolio" 
+        title="portfolio icons"
+        className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
+      >
+        Portfolio icons created by Flat Icons - Flaticon
+      </a>
+    </div>
+  );
 };
-
 const cs = [
   {
     id: 1,
@@ -114,6 +122,7 @@ export default function Home() {
         <Timeline data={data} />
       </div>
       <Spacer height="50px" />
+      
     </div>
     </main>
   );

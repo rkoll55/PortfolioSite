@@ -303,6 +303,15 @@ export default function ProjectsPage() {
         </h1>
         <Carousel items={cards} />
       </div>
+      <div className="ml-24">
+      <a 
+        href="https://www.flaticon.com/free-icons/portfolio" 
+        title="portfolio icons"
+        className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
+      >
+        Portfolio icons created by Flat Icons - Flaticon
+      </a>
+      </div>
     </main>
   );
 }
