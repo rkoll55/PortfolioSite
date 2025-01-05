@@ -62,7 +62,7 @@ const data = [
   {
     category: "Machine Learning",
     title: "Perceiver Transformer",
-    src: "/cifar10.png",
+    src: "/BrainScan.png",
     content: (
       <div className="space-y-4">
         <p className="text-gray-800">
